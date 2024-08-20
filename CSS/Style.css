@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000; 
+}
+
+.logo img {
+    max-height: 40px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+.page1{
+    height: 600px;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.top-head{
+    text-align: center;
+    margin-top: 45px ;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+
+}
+.header1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.script-project{
+    color: white;
+    text-align: center;
+    font-size: 24px ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+.Learn-More{
+    width: 130px;
+    height: 55px;
+    background-color: burlywood; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; /* تغيير المؤشر إلى يد لإظهار أنه زر قابل للنقر */
+}
+.Learn-More a {
+    color: white;
+    text-decoration: none;
+}
+.contact_US{
+    width: 130px;
+    height: 55px;
+    background-color: transparent;
+    margin-left: 20px;
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+.contact_US a{
+    color: white;
+    text-decoration: none;
+}
+.Icon{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+.image3{
+    width: 80%;
+}
+.image2{
+    width: 100%;
+}
+.sec1{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+.item-right1{
+    display: inline-block;
+    width: 47%;
+    
+}
+.item-center1{
+    width: 5%;
+    display: inline-block;
+}
+.item-left1{
+    width: 47%;
+    display: inline-block;
+    overflow: auto;
+    color: #686868;
+    padding-bottom: 90px;
+}
+.sec2{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 80px;
+}
+.item-right2{
+    display: inline-block;
+    width: 47%;
+    overflow: auto;
+    margin: auto;
+    color: #686868;
+    padding-left: 60px;
+    padding-bottom: 160px;
+
+}
+
+.item-center2{
+    width: 5%;
+    display: inline-block;
+}
+.item-left2{
+    width: 47%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    padding-bottom: 30px;
+}
+.sec1 p{
+    font-size: 1.18pc;
+    padding-bottom: 20px;
+}
+.sec2 p{
+    padding-bottom: 20px;
+}
+.log1 img{
+    width: 7%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+.log2 img{
+    width: 7%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+.log3 img{
+    width: 7%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+.log4 img{
+    width: 7%;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+.paragraph-log1{
+    display: inline;
+    width:80%;
+}
+.Our-Baking{
+    text-align: center;
+    color: #686868;
+}
+.clr{
+    clear: both;
+}
+.sec3{
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+}
+.item-sec3{
+    float: left;
+    width: 29%;
+}
+.item-sec3 img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.item-center3{
+    width: 3%;
+    float: left;
+}
+.sec4{
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 80px;
+}
+.item1-sec4{
+width: 45%;
+float:left;
+margin: auto;
+padding-left: 60px; ;
+}
+.item2-sec4{
+    width: 45%; /* تعيين عرض الحاوية */
+    max-width: 800px; /* تحديد العرض الأقصى */
+    margin: auto; /* توسيط الحاوية على الصفحة */
+    float: left;
+    margin-top: 40px;
+}
+iframe {
+    width: 100%; /* جعل الإطار يمتد على كامل عرض الحاوية */
+    height: 450px; /* تحديد الارتفاع الافتراضي للإطار */
+    border: none; /* إزالة الحدود الافتراضية للإطار */
+}
+.item1-sec4 h2{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+    text-align: left;
+    color:#686868 ;
+}
+.item1-sec4 p{
+    color:#686868 ;
+    margin-bottom: 35px;
+}
+.icon1-sec4 img{
+    float: left;
+width: 7%;
+background-color:#8e7754;
+margin-right: 5px;
+}
+.icon2-sec4 img{
+    float: left;
+width: 7%;
+background-color:#8e7754;
+margin-right: 5px;
+}
+.icon3-sec4 img{
+    float: left;
+width: 7%;
+background-color:#8e7754;
+margin-right: 5px;
+}
+.icon4-sec4 img{
+    float: left;
+width: 7%;
+background-color:#8e7754;
+margin-right: 5px;
+}
+.sec5{
+background-color: #403d38;
+;
+width: 100%;
+}
+.item1_sec5{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 24%;
+    float: left;
+}
+
+.item2_sec5{
+    margin-top: 40px;
+    width: 24%;
+    float: left;
+    padding-right: 25px;
+}
+
+.item3_sec5{
+    margin-top: 40px;
+    width: 24%;
+    padding-left: 3px;
+    padding-right: 15px;
+
+    float: left;
+}
+.item4_sec5{
+    margin-top: 40px;
+    width: 24%;
+    float: left;
+}
+.item3_sec5 p{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #969696;
+}
+.item2_sec5 p{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #969696;
+}
+.item1_sec5 p{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #969696;
+}
+.sec5 p{
+    color:#969696 ;
+}
+h4{
+    padding-bottom: 40px;
+    color: white;
+}
+hr{
+    background-color: whitesmoke;
+}
+.log1-sec5 img{
+float: left;
+width: 7%;
+background-color:#8e7754;
+margin-right: 5px;
+}
+.log1-sec5{
+    padding-bottom: 30px;
+}
+.log1-sec5 a{
+    color: #969696;
+}
+.item4_sec5 h4{
+    margin-bottom: 15px;
+}
+.sec6{
+    width: 100%;
+    background-color: #353330;
+    padding-top: 30px;
+}
+.sec6 p {
+    text-align: center;
+    color: #969696;
+    padding-bottom: 40px;
+}
+.sec6 p img{
+    width: 300px;
+    background-color: #353330;
+}
